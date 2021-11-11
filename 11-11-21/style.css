@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    color: cyan;
+    font-size: large ;
+}
+::selection{
+    color: red;
+    background-color: mediumblue;
+}
+a:hover{
+    color:red;
+}
+:link{
+    color: cyan;
+}
+:visited{
+    color: cyan;
+}
