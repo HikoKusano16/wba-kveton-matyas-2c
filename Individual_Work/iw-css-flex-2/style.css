@@ -1,0 +1,39 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 50px;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(38, 32, 62, 0.8);
+  font-size: 1.1rem;
+}
+
+.main-menu{
+  width: 80%;  
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+body{
+    background-image: url('Cosmic-Gradient-14.jpg');
+    background-size: cover;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
