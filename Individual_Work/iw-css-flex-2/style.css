@@ -38,6 +38,7 @@
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
+    gap: 2rem;
 }
 
 .search{
@@ -51,16 +52,22 @@
 }
 
 .midscreen{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-40%, -25%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Cosmic-Gradient-14.jpg);
+    background-size: cover;
+    z-index: -1;
 }
 
 .flex-body{
   display: flex;
-  justify-content: center;
-  width: 100%;
+  width: 50%;
 }
 
 .flex-body > div{
