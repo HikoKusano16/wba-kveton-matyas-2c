@@ -1,4 +1,5 @@
 .flex-container {
+<<<<<<< HEAD
   display: flex;
   width: 80%;
   justify-content: center;
@@ -86,3 +87,99 @@ h1{
 p{
   font-size: 1rem;
 }
+=======
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.flex-container > div{
+    display: flex;
+    color: white;
+    font-size: 1,1rem;
+    align-items: center;
+}
+
+.main-menu{
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    justify-content: center;
+    background-color: rgba(38, 32, 62, 0.8);
+}
+
+.logo{
+  width: 25%;
+  justify-self: flex-start;
+}
+
+.slogo{
+  width: 220px;
+  object-fit: cover;
+}
+
+.intro-text{
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+}
+
+.search{
+  width: 25%;
+  justify-content: flex-end;
+}
+
+.sicon{
+  width: 1.1rem;
+  object-fit: cover;
+}
+
+.midscreen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Cosmic-Gradient-14.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+.flex-body{
+  display: flex;
+  width: 50%;
+}
+
+.flex-body > div{
+  height: auto;
+  text-align: left;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+body{
+  background-image: url('Cosmic-Gradient-14.jpg');
+  background-size: cover;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    font-size: 1rem;
+}
+>>>>>>> ba5ef996b3d1395e76918d19134d56900a947d27
