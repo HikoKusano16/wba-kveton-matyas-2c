@@ -12,9 +12,9 @@
 <p>You've just won 10 000$. Complete this survey to receive your gift code. And don't worry, this page is definetly not a jebait :)</p><br><br>
 <form action="/action_page.php">
   <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
+  <input type="text" id="fname" name="fname" pattern="[A-Za-z]{3-11}" autofocus><br><br>
   <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
+  <input type="text" id="lname" name="lname" pattern="[A-Za-z]{3-15}"><br><br>
   <label for="gender">Gender:</label>
   <input type="radio" id="male" name="gender" value="Male">
   <label for="male">Male</label>
