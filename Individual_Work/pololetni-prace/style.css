@@ -8,13 +8,29 @@ body{
 
 .CPR {
     position: absolute;
-    bottom: 3px;
+    bottom: 45px;
     right: 16px;
+}
+
+.Credits{
+    position: absolute;
+    bottom: 10px;
+    right: 16px;
+}
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 500px) {
     body{
         align-content: center;
+    }
+    .CPR{
+        font-size: small;
+    }
+    .Credits{
+        font-size: small;
     }
 }
 
