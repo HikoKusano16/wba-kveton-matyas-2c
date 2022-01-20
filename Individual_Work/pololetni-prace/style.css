@@ -6,18 +6,9 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
+@media only screen and (min-width: 1000px) {
+    body{
+        font-size: larger;
+    }
 }
 
-a{
-    font-size: 20px;
-    color: black;
-    border-style: solid;
-    border-color: black;
-    border-width: thin;
-    border-radius: 3px;
-    background-color: lightgray;
-}
