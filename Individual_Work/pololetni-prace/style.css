@@ -6,17 +6,29 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.CPR {
+    position: absolute;
+    bottom: 3px;
+    right: 16px;
+}
+
+@media only screen and (max-width: 500px) {
+    body{
+        align-content: center;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1000px){
+    body{
+        font-size: large;
+    }
+}
+
 @media only screen and (min-width: 1000px) {
     body{
         font-size: larger;
     }
     form{
         align-items: center;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    body{
-        align-content: center;
     }
 }
