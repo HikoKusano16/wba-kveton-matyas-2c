@@ -10,5 +10,13 @@ body{
     body{
         font-size: larger;
     }
+    form{
+        align-items: center;
+    }
 }
 
+@media only screen and (max-width: 500px) {
+    body{
+        align-content: center;
+    }
+}
