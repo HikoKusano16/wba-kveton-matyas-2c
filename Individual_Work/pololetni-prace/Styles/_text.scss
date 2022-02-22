@@ -1,0 +1,27 @@
+$center: center;
+$font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+$color: white;
+$abs: absolute;
+
+body{
+    color: $color;
+    text-align: $center;
+    font-family: $font;
+}
+
+.CPR{
+    position: $abs;
+    bottom: 30px;
+    right: 16px;
+}
+
+.Credits{
+    position: $abs;
+    bottom: 25px;
+    right: 16px;
+}
+
+a:link, a:visited {
+    color: $color;
+    text-decoration: none;
+}
