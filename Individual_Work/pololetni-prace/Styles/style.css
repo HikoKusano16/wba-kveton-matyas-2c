@@ -1,0 +1,28 @@
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#38003d), to(#00fe82));
+  background: linear-gradient(90deg, #38003d 0%, #00fe82 100%);
+}
+
+body {
+  color: white;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.CPR {
+  position: absolute;
+  bottom: 45px;
+  right: 16px;
+}
+
+.Credits {
+  position: absolute;
+  bottom: 10px;
+  right: 16px;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
