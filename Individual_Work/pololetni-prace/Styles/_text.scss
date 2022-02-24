@@ -2,6 +2,7 @@ $center: center;
 $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 $color: white;
 $abs: absolute;
+$right: 16px;
 
 body{
     color: $color;
@@ -11,14 +12,14 @@ body{
 
 .CPR{
     position: $abs;
-    bottom: 30px;
-    right: 16px;
+    bottom: 60px;
+    right: $right;
 }
 
 .Credits{
     position: $abs;
-    bottom: 25px;
-    right: 16px;
+    bottom: 20px;
+    right: $right;
 }
 
 a:link, a:visited {
