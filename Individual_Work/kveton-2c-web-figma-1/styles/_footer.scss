@@ -1,0 +1,15 @@
+.footer{
+   display: flex;
+   background-color: $light-gray;
+   width: 100%;
+   height: 10vh;
+   justify-content: space-between;
+   flex-direction: column;
+   @include full-center-align;
+   text-align: center;
+   align-self: flex-end;
+   
+   h2{
+      font-size: 0.75rem;
+   }
+}

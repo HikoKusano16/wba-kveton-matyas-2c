@@ -1,0 +1,108 @@
+.container{
+    background-color: rgba(248, 247, 236, 0.5);
+
+    .gray-button-2{
+        display: flex;
+        width: 40%;
+        background-color: #7C7474;
+        color: $white;
+        margin-bottom: 20%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        @include full-center-align;
+    
+        h2{
+            @include full-center-align;
+            font-size: .688;
+        }
+    }
+}
+
+.gray-button{   
+    background-color:$button-color ;
+    color: $white;
+    margin-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+
+    h2{
+        font-size: .688;
+    }
+    
+}
+
+.gray-box{
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    background-color:#7C7474;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    @include full-center-align;
+    padding: 5%;
+
+    .gray-text-box{
+        margin: 5%;
+        font-size: 0.813rem;
+    }
+}
+
+
+
+.index-second-half{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+    .headline-3{
+        display: flex;
+        width: 100%;
+        font-size:0.688rem;
+        @include full-center-align;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .offer-container{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+
+        .image-column{
+            display: flex;
+            flex-direction: column;
+            width: 35%;
+            margin-left: 10%;
+            margin-right: 5%;
+
+            img{
+                margin-bottom: 15%;
+            }
+        }
+        
+        .text-column{
+            display: flex;
+            flex-direction: column;
+            width: 65%;
+
+            h3{
+                font-size: 0.75rem;
+            }
+            p{
+                font-size: 0.625rem;
+            }
+
+           :nth-child(1){
+                margin-top: 5%;
+            }
+            .offer-text{
+                margin-bottom:25%;
+            }
+        }
+    }
+}

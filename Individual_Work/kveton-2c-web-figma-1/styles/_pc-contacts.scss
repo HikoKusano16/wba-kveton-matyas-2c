@@ -1,0 +1,81 @@
+.gray-button-3{
+    display: flex;
+    @include full-center-align;
+
+    .my-existance-is-miserable{
+        display: flex;
+        @include full-center-align;
+        background-color: #7C7474;
+        color: $white;
+        margin-bottom: 5%;
+       padding: 1%;
+        width: 15%;
+      
+        h2{
+            @include full-center-align;
+            font-size: 1.125rem;
+        }
+    }
+}
+
+.thicc-box-2{
+    width: 100%;
+    height: 150%;
+}
+
+#contact-headline
+{
+    display: flex;
+    flex-direction: row;
+    @include full-center-align;
+    margin-top: 5%;
+    margin-bottom: 1%;
+
+    h1{
+        font-size: 3rem;
+    }
+}
+
+.contact-content{
+    width: 100%;
+    @include full-center-align;
+    flex-direction: column;
+    height: 75vh;
+}
+
+
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    background-color:#7C747430 ;
+    width: 80%;
+    font-size: 1rem;
+    padding: 2%;
+    padding-right: 50%;
+    width: 90%
+}
+
+.centering-contact-container{
+    display: flex;
+    @include full-center-align;
+    height: 60%
+}
+.contact-container {
+    @include full-center-align;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(5, 40%);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 70%;
+        
+    :nth-child(1) { grid-area: 1 / 1 / 2 / 2; }
+    :nth-child(2) { grid-area: 1 / 2 / 2 / 3; }
+    :nth-child(3) { grid-area: 2 / 1 / 3 / 2; }
+    :nth-child(4) { grid-area: 2 / 2 / 3 / 3; }
+    :nth-child(5) { grid-area: 3 / 1 / 5 / 5; 
+        width: 95%;
+        height: 120%;
+        margin-top: 4%;
+    }
+}

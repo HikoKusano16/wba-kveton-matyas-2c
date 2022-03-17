@@ -1,0 +1,54 @@
+$light-gray:#CBC1B1;
+$dark-gray:#7C747430;
+$white:#F8F7EC;
+$button-color: rgba(248, 247, 236, 0.3);
+
+@mixin full-center-align{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container{
+    @include full-center-align();
+    background-color: #F8F7EC80;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}   
+
+h1, h2, h3{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 1.25rem;
+}
+
+h2{
+    font-size: 0.688rem;
+}
+
+
+@media screen and(max-width: 480px){
+    @import "mobile-header";
+    @import "mobile-index-content";
+    @import "footer";
+    @import "mobile-contacts-content";
+    @import "mobile-info-content";
+}
+
+@media screen and(min-width: 481px){
+    @import "pc-header";
+    @import "pc-index";
+    @import "footer";
+    @import "pc-contacts";
+    @import "pc-info";
+}
