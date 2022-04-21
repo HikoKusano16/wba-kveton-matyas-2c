@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,kBAAkB;CACvC;;AAED,AAAA,CAAC,CAAA;EACG,KAAK,EAAE,KAAK;CACf",
     "sources": [
         "contacs.scss"
     ],

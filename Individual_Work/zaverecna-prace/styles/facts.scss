@@ -1,0 +1,21 @@
+body{
+    background-color: #353535 !important;
+}
+
+p{
+    color: white;
+}
+
+a:active, a:link, a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.mc-image {
+    display: none;
+}
+
+.mc-text:hover + .mc-image {
+    display: block;
+}
