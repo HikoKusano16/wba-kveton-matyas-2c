@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,KAAK,GAAG,CAAC,CAAA;EACL,WAAW,EAAE,MAAM;CACtB",
     "sources": [
         "main.scss",
         "_positioning.scss"
