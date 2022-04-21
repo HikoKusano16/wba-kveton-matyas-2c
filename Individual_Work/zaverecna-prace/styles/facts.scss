@@ -14,6 +14,9 @@ a:active, a:link, a:visited {
 
 .mc-image {
     display: none;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
 }
 
 .mc-text:hover + .mc-image {
