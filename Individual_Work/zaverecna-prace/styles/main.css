@@ -16,6 +16,16 @@ p {
   height: auto;
 }
 
+@media only screen and (max-width: 500px) {
+  .avatar {
+    height: 256px !important;
+    width: 256px !important;
+  }
+  p {
+    font-size: 30px !important;
+  }
+}
+
 body {
   background-color: #353535 !important;
 }
@@ -26,7 +36,7 @@ p {
 }
 
 .avatar {
-  height: 200px;
-  width: 200px;
+  height: 512px;
+  width: 512px;
 }
 /*# sourceMappingURL=main.css.map */
