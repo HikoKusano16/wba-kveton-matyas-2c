@@ -6,20 +6,54 @@ p {
   color: white;
 }
 
+img {
+  width: 960px !important;
+  height: 540px !important;
+}
+
 a:active, a:link, a:visited {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
 
-.mc-image {
+.mc_image {
   display: none;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
 }
 
-.mc-text:hover + .mc-image {
+.mc_text:hover + .mc_image {
+  display: block;
+}
+
+.ktane_image {
+  display: none;
+}
+
+.ktane_text:hover + .ktane_image {
+  display: block;
+}
+
+.roa_image {
+  display: none;
+}
+
+.roa_text:hover + .roa_image {
+  display: block;
+}
+
+.port_image {
+  display: none;
+}
+
+.port_text:hover + .port_image {
+  display: block;
+}
+
+.etc_image {
+  display: none;
+}
+
+.etc_text:hover + .etc_image {
   display: block;
 }
 /*# sourceMappingURL=facts.css.map */
