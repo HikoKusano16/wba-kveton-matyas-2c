@@ -1,53 +1,19 @@
+@import '_responsivity.scss';
+@import '_positioning.scss';
+
 body{
     background-color: #353535 !important;
 }
 
 p{
     color: white;
+    font-size: 45px;
 }
 
-img{
-    width: 960px !important;
-    height: 540px !important;
-}
 
-a:active, a:link, a:visited {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-.mc_image {
-    display: none;
-}
-.mc_text:hover + .mc_image {
-    display: block;
-}
-
-.ktane_image {
-    display: none;
-}
-.ktane_text:hover + .ktane_image {
-    display: block;
-}
-
-.roa_image {
-    display: none;
-}
-.roa_text:hover + .roa_image {
-    display: block;
-}
-
-.port_image {
-    display: none;
-}
-.port_text:hover + .port_image {
-    display: block;
-}
-
-.etc_image {
-    display: none;
-}
-.etc_text:hover + .etc_image {
-    display: block;
+#slideshow{
+    width: 960px;
+    height: 540px;
+    margin: auto;
+    bottom: 0px;
 }
