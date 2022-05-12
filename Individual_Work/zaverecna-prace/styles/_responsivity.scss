@@ -7,11 +7,21 @@
     p{
         font-size: 25px !important;
     }
+
+    #slideshow{
+        height: 512px !important;
+        width: 288px !important;
+    }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 1000px){
     .avatar{
         height: 332px !important;
         width: 332px !important;
+    }
+
+    #slideshow{
+        height: 880px !important;
+        width: 495px !important;
     }
 }
