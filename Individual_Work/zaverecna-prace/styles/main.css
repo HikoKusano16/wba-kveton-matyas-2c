@@ -1,5 +1,4 @@
 p {
-  position: absolute;
   top: 50%;
   width: 100%;
   text-align: center;
@@ -46,7 +45,7 @@ body {
 
 p {
   color: white;
-  font-size: 35px;
+  font-size: 45px;
 }
 
 .avatar {
