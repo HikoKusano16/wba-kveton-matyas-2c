@@ -10,4 +10,16 @@ p {
 a:visited, a:link {
   color: #0000EE;
 }
+
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+  p {
+    font-size: 35px;
+  }
+}
 /*# sourceMappingURL=contacs.css.map */
